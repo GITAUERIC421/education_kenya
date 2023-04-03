@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+}
+
+body{
+    background-color: cornsilk;
+}
+.navbar :hover{
+    color: red;
+}
+#slider{
+    overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+    width: 500%;;
+    margin: 0;
+    left: 0;
+    animation:11s slider infinite;
+    font-size: 0;
+    text-align: left;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 400px;
+
+}
+@keyframes slider{
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45%{ left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+.article{
+    display: grid;
+    
+    align-items: center;
+    justify-content: center;
+}
+.article .art1{
+    align-items: center;
+
+}
+.gmap_canvas{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    text-align:center; 
+    color: rgb(24, 8, 8);
+    background-color: bisque;
+    border-radius: 5px;
+}
+.abt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.abt p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+#cont{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #16bef1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
