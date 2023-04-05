@@ -2,9 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px ;
     width: 80%;
     background-color: #fff;
     margin: auto;
+    background-image: url(Image/naaa.jpg);
 }
 
 body{
@@ -93,6 +95,21 @@ body{
     font-size: 17px;
 }
 .navbar a:hover{
-    background-color: #ddd;
+    background-color: #09ebf3;
     color: black;
+}
+.kk{
+    background-image: url(Image/lin.jpg);
+    color: #fff;
+}
+.wel h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.wel{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
